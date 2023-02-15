@@ -1,0 +1,14 @@
+path, directory:
+
+cd /folder (például /c): change directory to c folder
+ls_ list current directory contents
+
+configuration:
+git config --global user.name "annab19"
+
+
+New file, refresh a file:
+1) git add test.js :add existing local file to git
+2) git status :check status of files
+3) git commit -m "first commit" test.js
+4) git push -u origin main
